@@ -1,6 +1,7 @@
 body {
     min-height: 100vh;
-    background: #e8ebef;
+    background-color: #e8ebef;
+    background-image: url("../img/circles-and-roundabouts.png");
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
 }
