@@ -1,0 +1,64 @@
+body {
+    min-height: 100vh;
+    background-color: #e8ebef;
+    /* background-image: url("../img/LovePattern.jpg"); */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-item {
+    background: tomato;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content-1 {
+    background-image: url("../img/bg1.png");
+    background-size: 100px;
+}
+
+.content-2 {
+    background: #000;
+}
+
+.content-3 {
+    background-image: url("../img/bg2.jpg");
+    background-size: 100px;
+}
+
+.inner-container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.youtube-item {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.youtube-item iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
